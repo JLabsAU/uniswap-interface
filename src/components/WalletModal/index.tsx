@@ -166,6 +166,7 @@ export default function WalletModal({
     let name = ''
     Object.keys(SUPPORTED_WALLETS).map(key => {
       if (connector === SUPPORTED_WALLETS[key].connector) {
+        console.log(key+"="+connector)
         return (name = SUPPORTED_WALLETS[key].name)
       }
       return true
@@ -289,6 +290,7 @@ export default function WalletModal({
 
   function getModalContent() {
     if (error) {
+      console.log("getModalContent error"+error)
       return (
         <UpperSection>
           <CloseIcon onClick={toggleWalletModal}>
