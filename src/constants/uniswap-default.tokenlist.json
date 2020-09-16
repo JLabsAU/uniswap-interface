@@ -1,0 +1,33 @@
+{
+    "name": "DEFI",
+    "logoURI": "https://mms.businesswire.com/media/20180213006340/en/640653/23/Picture1.jpg",
+    "keywords": [
+        "defi",
+        "DEFI",
+        "USDT"
+      ],
+      "timestamp": "2020-09-01T01:40:34.305Z",
+      "tokens": [
+        {
+        "chainId": 1337,
+        "address": "0x06483ae81aa532770825d78a8b56e0f8b045c1f5",
+        "name": "Tether Token",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://s2.coinmarketcap.com/static/img/coins/64x64/825.png"
+        },
+        {
+        "chainId": 1337,
+        "address": "0xe6E741a2342C5DfF3Bb27FDe82cf64Ab7F29B435",
+        "name": "Wrapped ETH",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://www.cryptocompare.com/media/20646/eth_logo.png"
+        }
+      ],
+      "version": {
+        "major": 1,
+        "minor": 2,
+        "patch": 0
+      }
+  }
