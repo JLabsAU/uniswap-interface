@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import { Info, BookOpen, Code, PieChart, MessageCircle } from 'react-feather'
+import { Info, BookOpen, Code, PieChart } from 'react-feather'
 import styled from 'styled-components'
 import { ReactComponent as MenuIcon } from '../../assets/images/menu.svg'
 import { useOnClickOutside } from '../../hooks/useOnClickOutside'
@@ -106,10 +106,10 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/EwFs3Pp">
+          {/* <MenuItem id="link" href="https://discord.gg/EwFs3Pp">
             <MessageCircle size={14} />
             Discord
-          </MenuItem>
+          </MenuItem> */}
           <MenuItem id="link" href="https://uniswap.info/">
             <PieChart size={14} />
             Analytics
