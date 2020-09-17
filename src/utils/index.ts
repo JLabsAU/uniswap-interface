@@ -44,7 +44,7 @@ function getEscscanLink(chainId: ChainId, data: string, type: 'transaction' | 't
 }
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  if (chainId == ChainId.DEV) {
+  if (chainId === ChainId.DEV) {
     return getEscscanLink(chainId, data, type)
   }
   const prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
