@@ -1,5 +1,5 @@
 // the Uniswap Default token list lives here
-export const DEFAULT_TOKEN_LIST_URL = 'https://gateway.pinata.cloud/ipfs/QmTEuMGXd8hBgyat22T2EPpr4S9nPNGzihjjHfmRTyA4ku'
+export const DEFAULT_TOKEN_LIST_URL = 'https://gateway.pinata.cloud/ipfs/QmSbr44UDqrCv28CftE3rij1Tk69VXwvj8Tr9hMwWP1zek'
 
 export const DEFAULT_LIST_OF_LISTS: string[] = [
   DEFAULT_TOKEN_LIST_URL
